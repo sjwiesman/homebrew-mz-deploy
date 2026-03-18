@@ -1,26 +1,26 @@
 class MzDeploy < Formula
   desc "Deployment tool for Materialize"
   homepage "https://github.com/sjwiesman/mz-deploy"
-  version "0.2.0"
+  version "0.3.0"
   license "BSL-1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.2.0/mz-deploy-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a1f9368af8dd3201054a90686075f5b43cdf5511f3e40648ca4ec4cd7f9a86f5"
+      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.3.0/mz-deploy-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e59b349c61c867c0646e48d4788e77cb2cee4b83a96754c785f0cc3591c43a4e"
     else
-      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.2.0/mz-deploy-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8f244103d7b6f6120a676317577a6391e63d222a13aa029f0f0fd383ac2ceda6"
+      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.3.0/mz-deploy-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ead7f9af4c540c605ab2425ce86aaf62bdcb3d5acd156fae4ae66f44c7afbd96"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.2.0/mz-deploy-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b6d3a4b936d5b8e07886a89dd535dd69bf217a00161de1e3291ace4f63318208"
+      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.3.0/mz-deploy-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c46b26a7ac9239ca242200fb020539649502b6358154c28c354bfededc919aae"
     else
-      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.2.0/mz-deploy-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7c37311858c5f236d456a3298d1f6417ef54510320d072423bca68444704f4ea"
+      url "https://github.com/sjwiesman/mz-deploy/releases/download/v0.3.0/mz-deploy-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ca30cbfec5933a3682fb900109aa1eab700075f6d94019b0b31447334c850d9b"
     end
   end
 
